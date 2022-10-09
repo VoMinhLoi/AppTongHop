@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_weight="7"
+        android:id="@+id/listViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <EditText
+            android:id="@+id/nameInsert"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Nhập tiêu đề bài báo" />
+        <EditText
+            android:id="@+id/dateInsert"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Ngày cập nhật" />
+
+        <EditText
+            android:id="@+id/desInsert"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Mô tả" />
+
+        <Button
+            android:id="@+id/insertBT"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Thêm"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppTongHop</string>
+    <string name="infor_phone">+0899-378-634</string>
+    <string name="infor_mail">minhloi1131130@gmail.com</string>
+    <string name="infor_linkedin">minhloi</string>
+    <string name="infor_facebook">facebook.com/loivo1221</string>
+    <string name="action_home">Home</string>
+    <string name="action_profile">Profile</string>
+
+</resources>
